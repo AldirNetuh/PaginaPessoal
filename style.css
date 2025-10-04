@@ -1,0 +1,66 @@
+/* Reset básico e configurações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aplica comportamento de rolagem suave ao root */
+html {
+    scroll-behavior: smooth; /* Suaviza a rolagem */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed; /* Fixa o cabeçalho no topo */
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav ul li {
+   margin-left: 20px;
+}
+
+main {
+    padding-top: 80px; /* Espaço para o cabeçalho fixo */
+}
+
+section {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;   
+}
+
+.projeto-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
